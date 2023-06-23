@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>stroll</title>
+    <!-- bostecp cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- close boostrep -->
+
+    <!-- font asome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        /* .col-6,
+        .col-6 ul li a {
+            color: white;
+        } */
+        .menu{
+            background-color: red;
+            overflow: hidden;
+            /* color: black; */
+        }
+
+        .sec1_text{
+            color: black;
+        }
+        .sec1{
+            background-color: rgb(231, 228, 223,0.3);
+
+        }
+        .section-3{
+            background-color: rgb(231, 228, 223,0.3);
+
+        }
+        .section-4 {
+            color: black;
+        }
+        .menu_sub li a{
+            color: black;
+            text-transform: capitalize;
+        }
+        span{
+            position: relative;
+        }
+        span::before{
+            content: "";
+            width: 40px;
+            height: 8px;
+            position: absolute;
+            background-color: red;
+            left: -50px;
+            top: 10px;
+        }
+        
+       .section8{
+           background-color: black;
+
+       }
+       .section8 a{
+           color: white;
+           text-decoration: none;
+       }
+       .card:hover{
+           background-color: rgba(137, 43, 226, 0.849);
+           color: white;
+           transition: 0.3s;
+           cursor: pointer;  
+               
+     }
+     .destinations::before{
+         display: none;
+     }
+    .harshil{
+        background-color: black;
+        box-shadow: 0px 0px 2px white;
+        border-radius: 50px;
+    }
+    .section6{
+        color: white;
+    }
+
+           
+        
+ 
+
+
+    </style>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="menu .container-fluid">
+        <div class="row bg-primary">
+            <div class="col-lg-6 col-md-5 ">
+                <h1 class="h1 text-capitalize ">stroll</h1>
+            </div>
+            <div class="col-lg-6 col-md-5">
+                <ul class="nav justify-content-end menu_sub">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">destinations</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            blogs
+                        </a>
+                        <ul class="dropdown-menu
+                        bg-primary">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link ">contac</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section-1 -->
+    <div class="sec1 .container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12
+            my-2">
+                <div class="sec1_text pt-5 ">
+                    <h1 class=" mt-5 ms-5">mountrain holiday</h1>
+                    <h2 class="display-2 ms-5">explore your travel
+                        <span class="fw-bold text-capitalize destinations "> destinations</span>
+                    </h2>
+                    <p class="text-capitalize ms-5 fs-5 opacity-50">enjoy the best destinations with our travel agency</p>
+                    <button type="button" class="btn btn-outline-primary text-capitalize ms-5">read more</button>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <img src="fast.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+
+        <!-- close section-1 -->
+    </div>
+
+
+
+    <div class="section2 .container-fluid ">
+        <div class="row m-5 p-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+                <i class="fa-solid fa-earth-americas mb-4  p-3 bg-info rounded-circle fs-2"></i>
+
+                <h2 class="h3 fs-4 text-capitalize fw-bold text-bg-light">voyages & cruises</h2>
+
+                <h3 class="h6 opacity-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+                <i class="fa-sharp fa-solid fa-hotel mb-4  p-3 bg-info rounded-circle fs-2"></i>
+
+                <h2 class="h3 fs-4 text-capitalize fw-bold text-bg-light">hotel bookings </h2>
+
+                <h3 class="h6 opacity-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+                <i class="fa-solid fa-plane p-3 mb-4 bg-info rounded-circle fs-2"></i>
+
+                <h2 class="h3 fs-4 text-capitalize fw-bold text-bg-light">air tickets</h2>
+
+                <h3 class="h6 opacity-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <i class="fa-solid fa-file mb-4  p-3 bg-info rounded-circle fs-2"></i>
+
+                <h2 class="h3 fs-4 text-capitalize fw-bold text-bg-light">visas</h2>
+
+                <h3 class="h6 opacity-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </div>
+
+        </div>
+        <!-- close section 2 -->
+    </div>
+
+
+    <div class="section-3 .container-fluid">
+
+        <span>
+            <hr></span>
+        <h4 class="text-capitalize ms-5 ps-5">hot tours</h4>
+        <h2 class="fw-bold  text-capitalize ms-5 ps-5">popular packages</h2>
+
+        <div class="row m-5 p-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <img src="sec3_1.jpg" class="img-fluid rounded-4 p-2" alt="...">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="sec3_2.jpg" class="img-fluid rounded-4 p-2" alt="...">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="sec3_3.jpg" class="img-fluid rounded-4 p-2" alt="...">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="sec3_4.jpg" class="img-fluid rounded-4 p-2" alt="...">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="sec3_5.jpg" class="img-fluid rounded-4 p-2" alt="...">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="sec3_^.jpg" class="img-fluid rounded-4 p-2" alt="...">
+            </div>
+        </div>
+        <!-- close section 3 -->
+    </div>
+
+
+
+
+    <div class="section4 overflow-hidden">
+        <div class="container-fuild">
+            <div class="row m-5 px-5">
+                <div class="col-12 m-5">
+                    <video controls poster="sec3_3.jpg" width="100%" height="500px">
+                        <source src="img/pexels-damon-hall-1321208-3840x2160-30fps.mp4" width="100%">
+                    </video>
+                </div>
+            </div>
+            <div class="row m-5 ps-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                    <span>Short Video</span>
+                    <h1>Find Your Perfect Vacation</h1>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-auto">
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic
+                        odio
+                        voluptatem tenetur consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur hic odio voluptatem tenetur consequatur adipisicing elit.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section5 overflow-hidden">
+        <div class="row m-5  ps-5">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-auto">
+                <span>10-30% Off</span>
+                <h1>Book Now</h1>
+            </div>
+        </div>
+        <div class="row m-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+
+
+                <div class="mt-3">
+                    <label for="name" class="form-lable mb-2 fw-bold">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="name">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+
+
+                <div class="mt-3">
+                    <label for="Destination" class="form-lable mb-2 fw-bold">Destination</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Any</option>
+                        <option value="1">America</option>
+                        <option value="2">Afferica</option>
+                        <option value="3">India</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+
+
+                <div class="mt-3">
+                    <label for="Destination" class="form-lable mb-2 fw-bold">Activity</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Any</option>
+                        <option value="1">Tours</option>
+                        <option value="2">Friendiy Tours</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+
+
+                <div class="mt-3">
+                    <label for="Destination" class="form-lable mb-2 fw-bold">Duration</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Any</option>
+                        <option value="1">One Day</option>
+                        <option value="2">Two Day</option>
+                        <option value="3">Three Day</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+
+
+                <div class="mt-3">
+                    <label for="Destination" class="form-lable mb-2 fw-bold">Date</label>
+                    <input type="date" class="form-control" id="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto">
+
+
+                <div class="mt-3">
+                    <label for="Destination" class="form-lable mb-2 fw-bold">Submit</label>
+                    <input type="submit" class="form-control bg-primary" id="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section6 overflow-hidden">
+        <div class="container-fuild">
+            <div class="row harshil">
+                <div class="col-6"></div>
+
+                <div class="signup col-6 mt-5 pt-5 pe-5 ">
+                    <span>Lets Stay In Touch</span>
+                    <h1>Sign Up For 25% Discount</h1>
+                    <p>Want to get an instant discount for your next tour? Leave your email and sign up for
+                        our newsletter with 25% off all our offers.</p>
+
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        <div class="input-group-prepend ">
+                            <i class="input-group-text bg-danger" id="basic-addon1">Submit</i>
+                        </div>
+                    </div>
+                    <p>Subscribe to our free weekly newsletter for new update releases (no spam)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section7 overflow-hidden">
+        <div class="row p-5">
+            <div class="col-lg-6 mx-5 mt-5">
+                <span>Testimonials</span>
+                <h2>Feedback From Our Customers</h2>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-5 px-5 justify-content-center">
+            <div class="col-lg-4 col-auto col-md-6 col-sm-12 mb-5">
+                <div class="card">
+                    <p class="m-3 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Explicabo, alias
+                        deserunt.
+                        Deserunt
+                        molestias natus expedita modi quae consequatur aliquam odit?</p>
+                    <div class="d-flex m-2">
+                        <img src="img/t1.jpg" alt="" class="img-fluid rounded-circle p-1" width="75px" height="40px">
+                        <div class="ms-2">
+                            <h5 class="mt-3">Theo hall</h5>
+                            <p>Seo Expert</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-auto col-md-6 col-sm-12 mb-5">
+                <div class="card">
+                    <p class="m-3 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Explicabo, alias
+                        deserunt.
+                        Deserunt
+                        molestias natus expedita modi quae consequatur aliquam odit?</p>
+                    <div class="d-flex m-2">
+                        <img src="img/t1.jpg" alt="" class="img-fluid rounded-circle p-1" width="75px" height="40px">
+                        <div class="ms-2">
+                            <h5 class="mt-3">jenna johnson</h5>
+                            <p>Seo Expert</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-auto col-md-6 col-sm-12 mb-5">
+                <div class="card">
+                    <p class="m-3 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Explicabo, alias
+                        deserunt.
+                        Deserunt
+                        molestias natus expedita modi quae consequatur aliquam odit?</p>
+                    <div class="d-flex m-2">
+                        <img src="img/t1.jpg" alt="" class="img-fluid rounded-circle p-1" width="75px" height="40px">
+                        <div class="ms-2">
+                            <h5 class="mt-3">linda carini</h5>
+                            <p>Seo Expert</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+    <div class="section8 overflow-hidden  ">
+        <div class="row m-5 p-5 text-light">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-auto ">
+                <h2 class="text-danger fw-bolder">Str<i class="fa-solid fa-earth-americas"></i>ll</h2>
+                <p class="mt-">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
+                    voluptatem
+                    tenetur
+                    consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <i class="fa-brands fa-facebook-f fs-6  mx-1 "></i>
+                <i class="fa-brands fa-linkedin-in fs-6  mx-1"></i>
+                <i class="fa-brands fa-twitter fs-6  mx-1"></i>
+                <i class="fa-brands fa-google fs-6  mx-1"></i>
+                <i class="fa-brands fa-github fs-6 mx-1"></i>
+
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-auto ">
+
+                <h6>QUICK LINKS</h6>
+                <div class="my-2"> <i class="fa-solid fa-greater-than parth"></i><i
+                        class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">Home</a>
+                </div>
+                <div class="my-2">
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">About</a>
+                </div>
+                <div class="my-2">
+
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">Destination</a>
+                </div>
+                <div class="my-2">
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">Contect</a>
+                </div>
+
+
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-auto">
+                <h6>HELPSUPPORT</h6>
+                <div class="my-2">
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i> <a
+                        class="fs-6">Live
+                        Chart</a>
+
+                </div>
+                <div class="my-2">
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">Faq</a>
+
+                </div>
+                <div class="my-2">
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">Support</a>
+
+                </div>
+                <div class="my-2">
+                    <i class="fa-solid fa-greater-than parth"></i><i class="fa-solid fa-greater-than parth"></i>
+                    <a class="fs-6">Servies</a>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-auto mt-md-4">
+                <h6>INSTAGRAM GALLERY</h6>
+                <div class="div">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-auto mb-3 ">
+                            <div class="landon">
+                                <div class="img">
+                                    <img src="img/g1.jpg" alt="" class="img-fluid rounded-3 opacity-10">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-auto mb-3 ">
+                            <div class="landon">
+                                <div class="img">
+                                    <img src="img/g2.jpg" alt="" class="img-fluid rounded-3 opacity-10">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-auto mb-3">
+                            <div class="landon">
+                                <div class="img">
+                                    <img src="img/g3.jpg" alt="" class="img-fluid rounded-3 opacity-10">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-auto mb-3 ">
+                            <div class="landon">
+                                <div class="img">
+                                    <img src="img/g4.jpg" alt="" class="img-fluid rounded-3 ">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-auto mb-3 ">
+                            <div class="landon">
+                                <div class="img">
+                                    <img src="img/g5.jpg" alt="" class="img-fluid rounded-3">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-auto mb-3 ">
+                            <div class="landon">
+                                <div class="img">
+                                    <img src="img/g6.jpg" alt="" class="img-fluid rounded-3">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-light">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-auto text-center">
+                <p class="ms-5">© 2020 Stroll. All rights reserved. Design by W3Layouts</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-auto d-flex justify-content-center ">
+                <p class="mx-2 fs-6">Privacy Policy</p>
+                <p class="mx-2 fs-6"> About Us</p>
+                <p class="mx-2 fs-6">Contact Us</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
